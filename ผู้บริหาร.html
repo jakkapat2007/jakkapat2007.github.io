@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าเว็บของฉัน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        header {
+            background: #18359d;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 200px;
+            background: #ffffff;
+            color: #18359d;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar a {
+            color: #18359d;
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .sidebar a:hover {
+            background: #000000;
+            color: #fff;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <a href="index.html">ประวัติ</a>
+                <a href="ปรัชญา.html">ปรัชญา</a>
+                <a href="อัตลักษณ์.html">อัตลักษณ์และเอกลักษณ์</a>
+                <a href="นโยบาย.html">นโยบายของวิทยาลัย</a>
+                <a href="ผู้บริหาร.html">ทำเบียบผู้บริหาร</a>
+                <a href="ผู้จัดทำ.html">ผู้จัดทำ</a>
+                <a href="สมัครสมาชิ1.html">สมัครสมาชิก</a>
+                <a href="ใบความรู้.html">ใบงาน</a>
+            </nav>
+        </aside>
+        
+        <div class="main-content">
+            <section id="home">
+            </section>
+
+            <section id="about">
+                <div class="section">
+                    <h2>ทำเบียบผู้บริหาร</h2>
+                    <div class="image-container">
+                        <img src="White Modern Minimalist Organizational Chart Graph.png" alt="คำอธิบายของภาพ">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 เว็บไซต์ของฉัน</p>
+    </footer>
+</body>
+</html>
